@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "client:deploy": "sls client deploy --no-config-change --no-policy-change --no-cors-change",
     "client:deploy:nc": "npm run client:deploy -- --no-confirm",
@@ -22,7 +22,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "@reduxjs/toolkit": "^1.2.5",
+    "@reduxjs/toolkit": "1.2.5",
     "@types/lodash": "^4.14.158",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.43",
@@ -44,7 +44,7 @@
     "react-scripts": "3.4.1",
     "serverless": "^2.29.0",
     "serverless-finch": "^2.6.0",
-    "typescript": "~3.7.2",
+    "typescript": "3.7.2",
     "yup": "^0.29.1"
   },
   "devDependencies": {
